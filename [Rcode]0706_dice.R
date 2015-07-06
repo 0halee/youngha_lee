@@ -19,6 +19,21 @@ plot.ecdf(dice_roll)
 plot(ecdf(dice_roll))
 
 
-hist(log(a$probabilities))
+#Drwing Normal Distribution
+plot(rnorm(10000))
+hist(rnorm(10000),prob=T)
 
+#Finding z scores
+zscore=dnorm(65,mean=70,sd=5)
+zscore
+
+#simply
+z=(65-70)/5
+z
+quantile=pnorm(65,mean=70,sd=5)
+quantile*100
+
+#Normal pdf
+#X~N(3,5),Pr(X>1)
+1-pnorm(1,mean=3,sd=sqrt(5))
 
