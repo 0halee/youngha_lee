@@ -37,3 +37,9 @@ quantile*100
 #X~N(3,5),Pr(X>1)
 1-pnorm(1,mean=3,sd=sqrt(5))
 
+1-pnorm(-.8944)
+pnorm(-.8944)
+pnorm(-.91)
+hist(rnorm(1000,mean=3,sd=sqrt(5)))
+
+
